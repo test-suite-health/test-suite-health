@@ -2,17 +2,17 @@
 
 Test Suite Health Indicator and current existing detection/improvement tools for Java.
 
-| Indicator                      | Detection                                   | Improvement / Repair                      |
-|--------------------------------|---------------------------------------------|------------------------------------------:|
-| Code coverage                  | [JaCoCo](https://github.com/jacoco/jacoco)  | DSpot [[3]](#3)                           | 
-| Pseudo-Testedness              | Descartes [[1]](#1), PseudoSweep [[9]](#9)  |                                           | 
-| Mutation Testing               | [PIT](https://pitest.org/), MAJOR [[4]](#4) | DSpot [[3]](#3)                           | 
-| Test Diversity                 |                                             |                                           |
-| Test Brittleness               |                                             |                                           |
-| Test 'Realism'                 |                                             |                                           |
-| Test Execution Runtime         |                                             | TestBoost [[8]](#8)                       |
-| Test Flakiness                 | DeFlaker [[5]](#5), iDFlakies [[6]](#6)     | iFixFlakies [[7]](#7), FlakeSync [[2]](#2)|
-| High Variability of Indicators |                                             |                                           |
+| Indicator                      | Detection                                                                                                                                      | Improvement / Repair                                                                                 |  
+|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------:|
+| Code coverage                  | [JaCoCo](https://github.com/jacoco/jacoco)                                                                                                     | [DSpot](https://github.com/STAMP-project/dspot/) [[3]](#3)                                           | 
+| Pseudo-Testedness              | [Descartes](https://github.com/STAMP-project/pitest-descartes) [[1]](#1), [PseudoSweep](https://github.com/PseudoTested/PseudoSweep) [[9]](#9) |                                                                                                      |
+| Mutation Testing               | [PIT](https://github.com/hcoles/pitest), [MAJOR](https://mutation-testing.org/) [[4]](#4)                                                      | [DSpot](https://github.com/STAMP-project/dspot/) [[3]](#3)                                           |
+| Test Diversity                 |                                                                                                                                                |                                                                                                      |
+| Test Brittleness               |                                                                                                                                                |                                                                                                      |
+| Test 'Realism'                 |                                                                                                                                                |                                                                                                      |
+| Test Execution Runtime         |                                                                                                                                                | TestBoost [[8]](#8)                                                                                  |
+| Test Flakiness                 | [DeFlaker](https://github.com/gmu-swe/deflaker) [[5]](#5), [iDFlakies](https://github.com/UT-SE-Research/iDFlakies) [[6]](#6)                  | [iFixFlakies](https://github.com/TestingResearchIllinois/iFixFlakies) [[7]](#7), FlakeSync [[2]](#2) |
+| High Variability of Indicators |                                                                                                                                                |                                                                                                      |
 
 ## References
 <a id="1">[1]</a> 
